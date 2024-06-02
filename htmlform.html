@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            #name{
+                margin:10px 35%;
+                padding:10px;
+                opacity:0.8;
+                width:300px;
+                height:1150px;
+               
+                 background-color:#C7DEFC;
+
+              
+                border-radius:10px
+            }
+            h4{
+                background-color:black;
+                color:white;
+            }
+            body{
+            background-image:url("https://cdn.pixabay.com/photo/2023/10/03/09/59/bridge-8291058_1280.jpg");
+            }
+        </style>
+    </head>
+    <body >
+        <div id="name">
+
+        <form action="#" method="post"  >
+            <h4>Registration Form</h4>
+            <label>Name:</label><br><br>
+            <input type="text" required placeholder="Enter Your Name"/ ><br><br>
+            <label>Email ID:</label><br><br>
+            <input type="EMail" required placeholder="Enter Your mail id"/><br><br>
+            <label>Date Of Birth:</label><br><br>
+            <input type="Date" required placeholder="Enter Your DOB" /><br><br>
+            <label>Mobile Number:</label><br><br>
+            <input type="tel" required placeholder="Enter Your Mobile Number" /><br><br>
+            <label>password:</label><br><br>
+            <input type="password" required placeholder="min 6 characters"; minlength="6"/><br><br>
+            <label>gender:</label><br><br>
+            <input type="radio" name=gender;/><label>male</label>
+            <input type="radio"name=gender;/><label>female</label>
+            <input type="radio" name=gender;/><label>others</label><br><br>
+            <label>college name:</label><br><br>
+            <input type="text" required placeholder="Enter Your College Name" /><br><br>
+            <label>Passed Out Year:</label><br>
+            <input type="month"/><br><br>
+
+
+            <label>course:</label><br><br>
+            <select>
+                <option>Bachelor Of Engineering</option>
+                <option>Bachelor of Arts and Science</option>
+                <option>others</option>
+            
+            <datalist>
+            <label>Department:</label><br><br>
+            <input list="department" name="department" required placeholder="Enter your department"/>
+            <datalist id="department">
+                <option>Mechanical Engineering</option>
+                <option>Civil Engineering</option>
+                <option>Computer Science Engineering</option>
+                <option>Electronics And Communication Engineering</option>
+                <option>Information Technology</option>
+                <option>Electrical And Electronics Engineering</option>
+            </datalist><br><br>
+            <label>Skills:</label><br><br>
+            <input type="checkbox"/><label>C Programming</label><br>
+            <input type="checkbox"/><label>Java</label><br>
+            <input type="checkbox"/><label>Python</label><br>
+            <input type="checkbox"/><label>css</label><br>
+            <input type="checkbox"/><label>HTML</label><br>
+            <input type="checkbox"/><label>Django</label><br>
+            <input type="checkbox"/><label>SQL</label><br>
+            <input type="checkbox"/><label>javascript</label><br><br>
+            <label>Attach The File:</label>
+            <input type="file"/><br><br>
+            <textarea cols="38" rows="5"></textarea><br><br>
+            
+            <button type="reset">reset</button>
+           
+            <button type="register" onclick=alert("thankyou")>Register</button>
+           
+            
+        </form>
+       <div>
+    </body>
+</html>
